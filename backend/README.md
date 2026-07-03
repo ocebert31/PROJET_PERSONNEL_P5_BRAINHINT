@@ -83,6 +83,24 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 - API : http://localhost:8000
 - Swagger : http://localhost:8000/docs
 
+## Tests (pytest + factory_boy)
+
+```bash
+source .venv/bin/activate
+pip install -r requirements-dev.txt
+pytest
+```
+
+Ou sans activer le venv :
+
+```bash
+.venv/bin/pytest
+```
+
+- Lancer les tests depuis le dossier `backend/`
+- BDD de test : SQLite en mémoire (pas besoin de PostgreSQL)
+- Factories : `tests/factories/contact_factory.py`
+
 ## Endpoints
 
 | Méthode | Route                  | Description        |

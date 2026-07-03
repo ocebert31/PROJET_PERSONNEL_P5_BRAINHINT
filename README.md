@@ -59,6 +59,16 @@ npm start
 
 - App : http://localhost:4200
 
+## Tests
+
+```bash
+# Backend
+cd backend && pytest
+
+# Frontend
+cd frontend && npm run test:ci
+```
+
 ## Documentation détaillée
 
 - [Frontend](frontend/README.md)
