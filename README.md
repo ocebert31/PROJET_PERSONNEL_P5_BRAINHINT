@@ -69,6 +69,14 @@ cd backend && pytest
 cd frontend && npm run test:ci
 ```
 
+## CI (GitHub Actions)
+
+À chaque push ou PR sur `main`, la CI exécute :
+- **backend** : `pytest`
+- **frontend** : `npm run build` + `npm run test:ci`
+
+Workflow : `.github/workflows/ci.yml`
+
 ## Documentation détaillée
 
 - [Frontend](frontend/README.md)
