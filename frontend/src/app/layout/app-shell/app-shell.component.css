@@ -1,0 +1,9 @@
+.app-shell-container {
+  height: calc(100vh - 64px);
+}
+
+.app-shell-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}

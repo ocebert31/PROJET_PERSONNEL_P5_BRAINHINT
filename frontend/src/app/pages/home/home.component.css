@@ -1,0 +1,15 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-form mat-form-field {
+  width: 100%;
+}
+
+.result-card pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
