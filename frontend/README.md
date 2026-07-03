@@ -35,7 +35,8 @@ src/app/
 |-----------------|--------------------------|
 | `npm start`     | Serveur de dev           |
 | `npm run build` | Build de production      |
-| `npm test`      | Tests unitaires (Karma)  |
+| `npm test`      | Tests Jasmine (watch)    |
+| `npm run test:ci` | Tests Jasmine (CI)     |
 
 ## Ajouter un composant
 
