@@ -1,0 +1,34 @@
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/*.egg-info/
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Node / Angular
+**/node_modules/
+**/dist/
+**/.angular/cache/
+**/out-tsc/
+**/coverage/
+npm-debug.log*
+yarn-error.log*
+
+# IDE & OS
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+.DS_Store
+Thumbs.db
